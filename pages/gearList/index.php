@@ -14,5 +14,14 @@ $gears = getGearData();
 </head>
 <body>
     <?php include '../../components/nav.component.php'; ?>
+    <main>
+        <h1>Road Cycling Gear</h1>
+        <div class="gear-list">
+            <?php foreach ($gears as $gear): ?>
+                <?php include '../../components/templates/gearCard.component.php'; ?>
+            <?php endforeach; ?>
+        </div>
+        <a href="../../index.php" class="button">← Back to Home</a>
+    </main>
 </body>
 </html>
