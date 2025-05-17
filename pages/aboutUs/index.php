@@ -26,6 +26,10 @@ $milestones = [
 <body>
     <?php include '../../components/nav.component.php'; ?>
 
-    
+    <main class="about-container">
+        <h1>Our Story</h1>
+        <p>Welcome to Road Cyclers! Here's how we came to be:</p>
+        
+    </main>
 </body>
 </html>
