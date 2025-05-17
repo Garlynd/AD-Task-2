@@ -29,7 +29,16 @@ $milestones = [
     <main class="about-container">
         <h1>Our Story</h1>
         <p>Welcome to Road Cyclers! Here's how we came to be:</p>
-        
+
+        <section>
+            <h2>Team History</h2>
+            <ul>
+                <?php foreach ($teamHistory as $event): ?>
+                    <li><?php echo $event; ?></li>
+                <?php endforeach; ?>
+            </ul>
+        </section>
+
     </main>
 </body>
 </html>
