@@ -11,6 +11,9 @@ $gears = getGearData();
     <title>Gear List</title>
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../pages/gearList/assets/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+    </style>
 </head>
 <body>
     <?php include '../../components/nav.component.php'; ?>

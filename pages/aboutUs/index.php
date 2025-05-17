@@ -22,6 +22,9 @@ $milestones = [
     <title>About Us - Road Cyclers</title>
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../pages/aboutUs/assets/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+    </style>
 </head>
 <body>
     <?php include '../../components/nav.component.php'; ?>
