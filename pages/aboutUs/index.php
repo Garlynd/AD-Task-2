@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../../pages/aboutUs/assets/css/style.css">
 </head>
 <body>
+    <?php include '../../components/nav.component.php'; ?>
+    
     
 </body>
 </html>
