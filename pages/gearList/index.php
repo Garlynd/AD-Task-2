@@ -13,6 +13,6 @@ $gears = getGearData();
     <link rel="stylesheet" href="assets/css/gearList.css">
 </head>
 <body>
-    
+    <?php include '../../components/nav.component.php'; ?>
 </body>
 </html>
