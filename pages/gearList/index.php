@@ -23,5 +23,7 @@ $gears = getGearData();
         </div>
         <a href="../../index.php" class="button">← Back to Home</a>
     </main>
+    <script src="../../assets/js/script.js"></script>
+    <script src="assets/js/gearList.js"></script>
 </body>
 </html>
