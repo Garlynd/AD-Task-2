@@ -55,8 +55,10 @@ main {
 }
 
 .hero h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
+    font-family: "Merienda", cursive;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0;
 }
 
 .hero p {
