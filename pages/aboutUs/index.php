@@ -39,6 +39,25 @@ $milestones = [
             </ul>
         </section>
 
+        <section>
+            <h2>Key Milestones</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Milestone</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($milestones as $event => $year): ?>
+                        <tr>
+                            <td><?php echo $event; ?></td>
+                            <td><?php echo $year; ?></td>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+        </section>
     </main>
 </body>
 </html>
