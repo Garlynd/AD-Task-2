@@ -58,6 +58,7 @@ $milestones = [
                 </tbody>
             </table>
         </section>
+        <a href="../../index.php" class="button">← Back to Home</a>
     </main>
 </body>
 </html>
