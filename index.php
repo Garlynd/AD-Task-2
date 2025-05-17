@@ -13,11 +13,19 @@ $welcomeMessage = getWelcomeMessage();
 </head>
 <body>
     <?php include 'components/nav.component.php'; ?>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1><?php echo $welcomeMessage; ?></h1>
+            <p>High-performance road bikes, components, and gear made for speed and endurance.</p>
+            <a href="pages/gearList/index.php" class="button">View Gear List</a>
+        </div>
+    </section>
+
     <main>
-        <h1><?php echo $welcomeMessage; ?></h1>
-        <p>Explore essential road cycling gear and performance equipment.</p>
-        <a href="pages/gearList/index.php" class="button">View Gear List</a>
+        <p>We’re passionate about road cycling and helping you find the right gear to ride faster and smarter.</p>
     </main>
+    
     <script src="assets/js/script.js"></script>
 </body>
 </html>
