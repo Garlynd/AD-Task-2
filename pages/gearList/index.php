@@ -10,7 +10,7 @@ $gears = getGearData();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gear List</title>
     <link rel="stylesheet" href="../../assets/css/style.css">
-    <link rel="stylesheet" href="../../pages/css/gearList.css">
+    <link rel="stylesheet" href="../../pages/gearList/assets/css/gearList.css">
 </head>
 <body>
     <?php include '../../components/nav.component.php'; ?>
