@@ -30,6 +30,7 @@ $milestones = [
     <?php include '../../components/nav.component.php'; ?>
 
     <section class="hero">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1>Discover the story behind our passion for road cycling.</h1>
         </div>
