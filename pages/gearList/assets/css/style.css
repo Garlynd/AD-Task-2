@@ -21,3 +21,8 @@
     object-fit: cover;
     border-radius: 6px;
 }
+
+.gear-card h3 {
+    margin: 15px 0 5px;
+    font-size: 18px;
+}
