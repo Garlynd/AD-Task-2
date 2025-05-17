@@ -31,7 +31,7 @@ $milestones = [
 
     <section class="hero">
         <div class="hero-content">
-            <p>Discover the story behind our passion for road cycling.</p>
+            <h1>Discover the story behind our passion for road cycling.</h1>
         </div>
     </section>
 
