@@ -12,7 +12,7 @@ $welcomeMessage = getWelcomeMessage();
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <?php include '../../components/nav.component.php'; ?>
+    <?php include 'components/nav.component.php'; ?>
 
     <section class="hero">
         <div class="hero-content">
