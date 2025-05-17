@@ -12,5 +12,11 @@ $welcomeMessage = getWelcomeMessage();
 </head>
 <body>
     <?php include 'components/nav.component.php'; ?>
+    <main>
+        <h1><?php echo $welcomeMessage; ?></h1>
+        <p>Explore essential road cycling gear and performance equipment.</p>
+        <a href="pages/gearList/index.php" class="button">View Gear List</a>
+    </main>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
