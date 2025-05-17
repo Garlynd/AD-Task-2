@@ -21,7 +21,6 @@ $gears = getGearData();
                 <?php include '../../components/templates/gearCard.component.php'; ?>
             <?php endforeach; ?>
         </div>
-        <a href="../../index.php" class="button">← Back to Home</a>
     </main>
     <script src="../../assets/js/script.js"></script>
     <script src="assets/js/gearList.js"></script>
