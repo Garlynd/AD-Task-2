@@ -12,7 +12,7 @@ $welcomeMessage = getWelcomeMessage();
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <?php include 'components/nav.component.php'; ?>
+    <?php include '../../components/nav.component.php'; ?>
 
     <section class="hero">
         <div class="hero-content">
@@ -25,7 +25,7 @@ $welcomeMessage = getWelcomeMessage();
     <main>
         <p>We’re passionate about road cycling and helping you find the right gear to ride faster and smarter.</p>
     </main>
-    
+
     <script src="assets/js/script.js"></script>
 </body>
 </html>
