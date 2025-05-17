@@ -6,7 +6,6 @@ h1 {
     color: #fff;
 }
 
-
 .hero {
     background-image: url('../../../../assets/img/team.jpg'); /* Replace with your actual hero image */
     background-size: cover;
@@ -20,6 +19,9 @@ h1 {
     padding: 0 20px;
 }
 
+#top {
+    margin-top: 5%;
+}
 .about-container {
     max-width: 900px;
     margin: 0 auto;
