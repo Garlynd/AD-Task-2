@@ -6,6 +6,20 @@ h1 {
     color: #fff;
 }
 
+
+.hero {
+    background-image: url('../img/team.jpg'); /* Replace with your actual hero image */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
 .about-container {
     max-width: 900px;
     margin: 0 auto;
