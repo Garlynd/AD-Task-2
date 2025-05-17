@@ -29,6 +29,12 @@ $milestones = [
 <body>
     <?php include '../../components/nav.component.php'; ?>
 
+    <section class="hero">
+        <div class="hero-content">
+            <p>Discover the story behind our passion for road cycling.</p>
+        </div>
+    </section>
+
     <main class="about-container">
         <h2>Our Story</h2>
         <p>Welcome to Road Cyclers! Here's how we came to be:</p>
