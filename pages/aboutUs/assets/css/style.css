@@ -1,0 +1,32 @@
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-container h1, .about-container h2 {
+    margin-bottom: 20px;
+}
+
+.about-container ul {
+    list-style: disc;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.about-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.about-container table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.about-container th {
+    background-color: #f2f2f2;
+}
