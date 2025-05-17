@@ -18,6 +18,7 @@ $welcomeMessage = getWelcomeMessage();
     <?php include 'components/nav.component.php'; ?>
 
     <section class="hero">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1><?php echo $welcomeMessage; ?></h1>
             <p>High-performance road bikes, components, and gear made for speed and endurance.</p>
