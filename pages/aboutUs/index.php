@@ -37,7 +37,7 @@ $milestones = [
     </section>
 
     <main class="about-container">
-        <h2>Our Story</h2>
+        <h2 id="top">Our Story</h2>
         <p>Welcome to Road Cyclers! Here's how we came to be:</p>
 
         <section>
