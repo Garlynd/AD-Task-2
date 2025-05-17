@@ -11,6 +11,6 @@ $welcomeMessage = getWelcomeMessage();
     <title>Document</title>
 </head>
 <body>
-    
+    <?php include 'components/nav.component.php'; ?>
 </body>
 </html>
