@@ -1,3 +1,8 @@
+<?php
+require_once '../../utils/Gear.util.php';
+$gears = getGearData();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
