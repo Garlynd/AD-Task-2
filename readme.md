@@ -102,34 +102,43 @@ Description of the project in details.
 AD-Task-2
 └─ assets
 |   └─ css
-|   |   └─ name.css
+|   |   └─ style.css
 |   └─ img
-|   |   └─ name.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ name.js
+|   |   └─ hero-bike.jpg
+|   |   └─ ignite.png
 └─ components
-|   └─ name.component.php
+|   └─ nav.component.php
 |   └─ templates
-|      └─ name.component.php
-└─ handlers
-|   └─ name.handler.php
+|      └─ gearCard.component.php
 └─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ name.css
-|     |  └─ img
-|     |  |  └─ name.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ name.js
-|     └─ index.php
+|  └─ aboutUs
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ helmet.jpg
+|  |  |  └─ img
+|  |  |  |  └─ tarmac.jpg
+|  |  |  └─ img
+|  |  |  |  └─ ultegra.jpg
+|  |  └─ index.php
+|  └─ aboutUs
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ team.jpg
+|  |  └─ index.php
 └─ utils
-|   └─ name.utils.php
+|   └─ Gear.util.php
 └─ vendor
+└─ .dockerignore
 └─ .gitignore
 └─ bootstrap.php
+└─ compose.yaml
 └─ composer.json
 └─ composer.lock
+└─ Dockerfile
 └─ index.php
 └─ readme.md
 └─ router.php
