@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const heroParagraph = document.querySelector('.hero-content p');
     const button = document.querySelector('.hero-content .button');
 
+    // Fade-in animation
     heroHeading.style.opacity = 0;
     heroParagraph.style.opacity = 0;
     button.style.opacity = 0;
-});
 
     setTimeout(() => {
         heroHeading.style.transition = 'opacity 1s ease-in-out';
@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         button.style.opacity = 1;
     }, 1500);
 
+    // Optional: Smooth scroll to gear list on button click
     button.addEventListener('click', function (e) {
         // If gear list is on same page
         if (button.getAttribute('href') === "#gear-list") {
@@ -33,3 +34,4 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     });
+});
