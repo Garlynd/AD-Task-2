@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Smooth scroll to top if the user clicks the "Back to Home" button
     const backButton = document.querySelector(".button");
     backButton?.addEventListener("click", (e) => {
         window.scrollTo({
@@ -8,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Simple scroll reveal effect
     const observerOptions = {
         threshold: 0.1
     };
