@@ -7,3 +7,18 @@ document.addEventListener('DOMContentLoaded', function () {
     heroParagraph.style.opacity = 0;
     button.style.opacity = 0;
 });
+
+    setTimeout(() => {
+        heroHeading.style.transition = 'opacity 1s ease-in-out';
+        heroHeading.style.opacity = 1;
+    }, 500);
+
+    setTimeout(() => {
+        heroParagraph.style.transition = 'opacity 1s ease-in-out';
+        heroParagraph.style.opacity = 1;
+    }, 1000);
+
+    setTimeout(() => {
+        button.style.transition = 'opacity 1s ease-in-out';
+        button.style.opacity = 1;
+    }, 1500);
