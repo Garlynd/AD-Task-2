@@ -91,3 +91,9 @@ main {
 .hero .button:hover {
     background-color: #e55b00;
 }
+
+.hero-content h1,
+.hero-content p,
+.hero-content .button {
+    opacity: 0;
+}
