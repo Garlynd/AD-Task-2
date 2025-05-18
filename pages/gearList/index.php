@@ -26,6 +26,6 @@ $gears = getGearData();
         </div>
     </main>
     
-    <script src="assets/js/gearList.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
