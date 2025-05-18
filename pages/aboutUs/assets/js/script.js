@@ -1,37 +1,32 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const heroHeading = document.querySelector('.hero-content h1');
-    const heroParagraph = document.querySelector('.hero-content p');
-    const button = document.querySelector('.hero-content .button');
+document.addEventListener("DOMContentLoaded", () => {
+    // Smooth scroll to top if the user clicks the "Back to Home" button
+    const backButton = document.querySelector(".button");
+    backButton?.addEventListener("click", (e) => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
 
-    // Fade-in animation
-    heroHeading.style.opacity = 0;
-    heroParagraph.style.opacity = 0;
-    button.style.opacity = 0;
+    // Simple scroll reveal effect
+    const observerOptions = {
+        threshold: 0.1
+    };
 
-    setTimeout(() => {
-        heroHeading.style.transition = 'opacity 1s ease-in-out';
-        heroHeading.style.opacity = 1;
-    }, 500);
-
-    setTimeout(() => {
-        heroParagraph.style.transition = 'opacity 1s ease-in-out';
-        heroParagraph.style.opacity = 1;
-    }, 1000);
-
-    setTimeout(() => {
-        button.style.transition = 'opacity 1s ease-in-out';
-        button.style.opacity = 1;
-    }, 1500);
-
-    // Optional: Smooth scroll to gear list on button click
-    button.addEventListener('click', function (e) {
-        // If gear list is on same page
-        if (button.getAttribute('href') === "#gear-list") {
-            e.preventDefault();
-            const target = document.querySelector('#gear-list');
-            if (target) {
-                target.scrollIntoView({ behavior: 'smooth' });
+    const revealOnScroll = (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                observer.unobserve(entry.target);
             }
-        }
+        });
+    };
+
+    const observer = new IntersectionObserver(revealOnScroll, observerOptions);
+
+    const revealElements = document.querySelectorAll("section, table, ul");
+    revealElements.forEach(el => {
+        el.classList.add("hidden");
+        observer.observe(el);
     });
 });
