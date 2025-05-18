@@ -70,5 +70,7 @@ $milestones = [
         </section>
         <a href="../../index.php" class="button">← Back to Home</a>
     </main>
+
+    <script src="../../pages/aboutUs/assets/js/script.js"></script>
 </body>
 </html>
