@@ -22,3 +22,14 @@ document.addEventListener('DOMContentLoaded', function () {
         button.style.transition = 'opacity 1s ease-in-out';
         button.style.opacity = 1;
     }, 1500);
+
+    button.addEventListener('click', function (e) {
+        // If gear list is on same page
+        if (button.getAttribute('href') === "#gear-list") {
+            e.preventDefault();
+            const target = document.querySelector('#gear-list');
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    });
