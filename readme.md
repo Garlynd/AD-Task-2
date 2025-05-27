@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+The website, Road Cyclers, is dedicated to the passion of road cycling, stemming from a local weekend group ride that started in January 2018. It showcases its evolution into a competitive road cycling team by 2020, having won several regional events and charity races. The site also features information on high-performance road bikes, components, and gear designed for speed and endurance.
 </div>
 
 <br />
