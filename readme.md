@@ -61,15 +61,11 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
+- Data Handling
+- Component Based Architechture
+- Dynamic Content Reading
+
 Description of the project in details.
-
-### Key Components
-
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-
-- Authentication & Authorization
-- CRUD Operations for Invetory System
 
 ### Technology
 
@@ -149,9 +145,7 @@ AD-Task-2
 
 <!-- TODO: Add References -->
 
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title    | Purpose                                                                                                   | Link                     |
+| -------- | --------------------------------------------------------------------------------------------------------- | ------------------------ |
+| Google   | To locate and gather images used as design assets and visual references during development.               | https://google.com        |
+| ChatGPT  | Clarifying concepts, improving code structure, and exploring better implementation approaches.            | https://chat.openai.com/  |
